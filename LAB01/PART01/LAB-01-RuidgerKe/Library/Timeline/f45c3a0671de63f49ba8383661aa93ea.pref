@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d79cb9ecc0d4a6d428ab98a681a33897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeAreaShownRange: {x: 0.5394558, y: 9.057658}
+  timeAreaShownRange: {x: -0.04697133, y: 3.987866}
   trackScale: 1
   playRangeEnabled: 0
-  windowTime: 0
+  windowTime: 1.6692134003407766
   verticalScroll: 0
   sequencerHeaderWidth: 315
   m_TimeAreaPlayRange:
@@ -28,12 +28,12 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: -54740
+    lastInlineCurveDataID: 22896
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00000080ffffffff
+      m_ExpandedIDs: 00000080
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -53,10 +53,10 @@ MonoBehaviour:
       m_SearchString: 
     inlineCurvesShownAreaInsideMargins:
       serializedVersion: 2
-      x: 0.5394558
-      y: -90
-      width: 8.518203
-      height: 270
+      x: 0
+      y: -4.3983154
+      width: 3.987866
+      height: 564.2611
     trackHeightExtension: 0
     m_MarkerTimeStampsKeys: 
     m_MarkerTimeStampsValues: 
