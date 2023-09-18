@@ -1,7 +1,8 @@
 STUDENT NAME: Ruidger Ke
 
-COMMENTS:
-N/A
+SUBMISSION DATE: [DATE OF SUBMISSION - YYYY-MM-DD]
+
+LAB: [LAB 01: Unity Timeline and Animation Window]
 
 ATTESTATION:
 I, Ruidger Ke, understand that I am bound by Ontario Tech’s Academic Integrity Policy

@@ -1,0 +1,7 @@
+Movie Name of Intro: A Bug's Life
+Start Frame: 0 
+End Frame : 360
+Duration (MM:SS): 00:15
+Duration (# frames): 
+List of Stationary Objects: P, X, A, R, background
+List of Dynamic Objects: i.e. Luxo the lamp, I
