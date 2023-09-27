@@ -5,6 +5,7 @@ using UnityEngine;
 public class PathController : MonoBehaviour
 {
     [SerializeField] public PathManger pathManager;
+    [SerializeField] private bool idleOnHit;
 
     List<Waypoints> thePath;
     Waypoints target;
@@ -71,5 +72,14 @@ public class PathController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         target = pathManager.GetNextTarget();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (idleOnHit && collision.transform.CompareTag("Collide"))
+        {
+            isWalking = !isWalking;
+            animator.SetBool("isWalking", isWalking);
+        }
     }
 }
