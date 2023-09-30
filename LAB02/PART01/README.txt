@@ -1,7 +1,7 @@
 STUDENT NAME: Ruidger Ke
 
 COMMENTS:
-N/A
+The unlisted youtube link is added in the folder as a text file
 
 ATTESTATION:
 I, Ruidger Ke, understand that I am bound by Ontario Tech’s Academic Integrity Policy
