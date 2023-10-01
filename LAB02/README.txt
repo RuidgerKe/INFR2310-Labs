@@ -1,6 +1,6 @@
 STUDENT NAME: Ruidger Ke
 
-SUBMISSION DATE: [DATE OF SUBMISSION - ]
+SUBMISSION DATE: [DATE OF SUBMISSION - 2024-10-01]
 
 LAB: [LAB-02 :Waypoints, Steering, and State Machines... Oh My!]
 
