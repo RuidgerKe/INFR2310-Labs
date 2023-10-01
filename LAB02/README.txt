@@ -1,7 +1,8 @@
 STUDENT NAME: Ruidger Ke
 
-COMMENTS:
-The unlisted youtube link is added in the folder as a text file
+SUBMISSION DATE: [DATE OF SUBMISSION - 2024-10-01]
+
+LAB: [LAB-02 :Waypoints, Steering, and State Machines... Oh My!]
 
 ATTESTATION:
 I, Ruidger Ke, understand that I am bound by Ontario Tech’s Academic Integrity Policy
