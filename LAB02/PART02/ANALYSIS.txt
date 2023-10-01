@@ -1,0 +1,28 @@
+Selected game
+● Start/End timestamps of the analyzed segment: 1:02:53 - 1:02:59
+● Characters/types in scene:
+    Batman - Player Character
+    Grunts - Enemy Character
+● Identify all of the different/unique behaviours/states the characters exhibit
+    Batman:
+      - Sprints
+    Enemies:
+      - Idle
+      - Seek Batman
+      - Attack
+      - Damaged
+● What causes the states to change? When do they change?
+    Enemies:
+      - Idle -> Seek
+        Happens when the enemies have line of sight on the player character
+        Changes with the same idea as the line above it
+      - Seek -> Attack
+        When the player character is in attack range of the enemy he changes into attack state
+        It changes the momment the player character enters melee range
+      - Anything -> Damage
+        If the player character hits them within certain frames they will enter the damage state
+        If the player uses a heavy attack the enemy is flung backwards
+        It changes the momment their hitbox is connected with the player's hurtbox
+● How does the state influence their movement?
+    - They start off as idle/standing on the spot, but the moment they spot the character 
+    - The attack animation roots them in place and slightly leans them forward before leaning back into their original state
