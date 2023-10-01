@@ -6,6 +6,7 @@ public class PathController : MonoBehaviour
 {
     [SerializeField] public PathManger pathManager;
     [SerializeField] private bool idleOnHit;
+    
 
     List<Waypoints> thePath;
     Waypoints target;
@@ -14,12 +15,11 @@ public class PathController : MonoBehaviour
     public float RotateSpeed;
 
     public Animator animator;
-    bool isWalking;
+    [SerializeField] bool isWalking;
 
     // Start is called before the first frame update
     void Start()
     {
-        isWalking = false;
         animator.SetBool("isWalking", isWalking);
         thePath = pathManager.Getpath();
         if (thePath != null && thePath.Count > 0)

@@ -137,7 +137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 113038, guid: 907325ec940ecbf409d1505976f5fcd5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 484804, guid: 907325ec940ecbf409d1505976f5fcd5, type: 3}
       propertyPath: m_RootOrder
@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 484804, guid: 907325ec940ecbf409d1505976f5fcd5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.40584946
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 484804, guid: 907325ec940ecbf409d1505976f5fcd5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -264,7 +264,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &152592854
 MonoBehaviour:
@@ -279,9 +279,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathManager: {fileID: 204029701}
-  idleOnHit: 0
-  MoveSpeed: 0
-  RotateSpeed: 0
+  idleOnHit: 1
+  MoveSpeed: 5
+  RotateSpeed: 5
   animator: {fileID: 152592855}
 --- !u!95 &152592855 stripped
 Animator:
@@ -317,7 +317,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a98753ca60a9338458d224fd2f8118c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  path: []
+  path:
+  - pos: {x: 0.34304452, y: 1.1047392, z: 4.806038}
+  - pos: {x: 0.52429223, y: 0.7443764, z: 8.423089}
   prefab: {fileID: 6008283956720251112, guid: a499bf0d3ec66534e8ea7e26047d2fea, type: 3}
   prefabPoints: []
 --- !u!4 &204029702
@@ -676,7 +678,7 @@ MonoBehaviour:
   pathManager: {fileID: 1184279076}
   idleOnHit: 0
   MoveSpeed: 3
-  RotateSpeed: 20
+  RotateSpeed: 8
   animator: {fileID: 734155583}
 --- !u!65 &734155586
 BoxCollider:
@@ -724,7 +726,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!1 &890092900 stripped
 GameObject:
