@@ -1,0 +1,9 @@
+Start/End timestamps of the analyzed segment
+3:57 - 4:10
+● Characters/types in scene
+● Draw a top-down diagram of the level and indicate the starting locations of all objects
+● How do they move? When do they move? Why do they move?
+● Identify all of the different/unique behaviours/states the characters exhibit
+● What triggers the states to change?
+● How does the state influence their movement?
+● Create a diagram of the various behaviours that you can identify and note the cause of the transitio
