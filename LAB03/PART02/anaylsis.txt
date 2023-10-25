@@ -32,7 +32,14 @@ Boss:
 - Reload
 - Hurt
 - Reload Hat
+- Running Away
 
-● What triggers the states to change?
+What triggers the states to change?
+Player - The player input change whatever happens on the screen of the action that the player is performing. 
+
+Boss - The walk state is the original, as for their default they will walk towards the player. 
+They will throw a mine after a couple seconds towards the player, so it is triggered by an internal timer. The reloading mine animation plays right after hte mine has been thrown. 
+They will play their hurt animation after the player manages to hit them with the mine. This will follow with the running away animation until an internal timer reaches 0, or they player manages to jump on their head. 
+
 ● How does the state influence their movement?
 ● Create a diagram of the various behaviours that you can identify and note the cause of the transitio
