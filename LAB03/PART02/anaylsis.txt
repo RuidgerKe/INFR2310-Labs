@@ -10,7 +10,11 @@ Draw a top-down diagram of the level and indicate the starting locations of all 
 See image in Part02 Folder
 
 How do they move? When do they move? Why do they move?
-Mines - 
+Mines - They are initially thrown from the boss as their own attack. They'll drop and bounce twice before stoping to a halt. 
+When they stop to a halt, the player can hit them with the hat in order to knock it away in the same direction the hat has hit. 
+The mines can hit the boss if the player lines it up properly. 
+
+The Boss - 
 
 ● Identify all of the different/unique behaviours/states the characters exhibit
 ● What triggers the states to change?
