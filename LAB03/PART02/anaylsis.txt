@@ -41,5 +41,8 @@ Boss - The walk state is the original, as for their default they will walk towar
 They will throw a mine after a couple seconds towards the player, so it is triggered by an internal timer. The reloading mine animation plays right after hte mine has been thrown. 
 They will play their hurt animation after the player manages to hit them with the mine. This will follow with the running away animation until an internal timer reaches 0, or they player manages to jump on their head. 
 
-● How does the state influence their movement?
-● Create a diagram of the various behaviours that you can identify and note the cause of the transitio
+How does the state influence their movement?
+The boss originally will talk towards the player at a slow speed. When they need to reload they will halt in place to reload the mine in their hair. Once the player has removed their hat by hitting them with the mine, they will at first halt. Afterwards they will begin to run away from the player at a higher speed than her original walk speed. 
+
+Create a diagram of the various behaviours that you can identify and note the cause of the transition
+Image is in the Part02 folder. 
