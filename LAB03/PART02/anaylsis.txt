@@ -4,9 +4,14 @@ Start/End timestamps of the analyzed segment
 Characters/types in scene
 Player Character
 Boss
+Mines
 
-● Draw a top-down diagram of the level and indicate the starting locations of all objects
-● How do they move? When do they move? Why do they move?
+Draw a top-down diagram of the level and indicate the starting locations of all objects
+See image in Part02 Folder
+
+How do they move? When do they move? Why do they move?
+Mines - 
+
 ● Identify all of the different/unique behaviours/states the characters exhibit
 ● What triggers the states to change?
 ● How does the state influence their movement?
