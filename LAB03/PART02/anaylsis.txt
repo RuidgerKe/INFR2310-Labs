@@ -14,9 +14,11 @@ Mines - They are initially thrown from the boss as their own attack. They'll dro
 When they stop to a halt, the player can hit them with the hat in order to knock it away in the same direction the hat has hit. 
 The mines can hit the boss if the player lines it up properly. 
 
-The Boss - 
+The Boss - The boss will slowly follow the character and throw a mine every so often. When the boss throws a mine, they will stop to "reload".
+Once the boss gets hit by a mine reflected by the player, they will pause to play an animation and begin to run away from the player. 
+Once the player jumps on their head, or the time to hit has elapsed, they will reset back to their agro state. 
 
-● Identify all of the different/unique behaviours/states the characters exhibit
+Identify all of the different/unique behaviours/states the characters exhibit
 ● What triggers the states to change?
 ● How does the state influence their movement?
 ● Create a diagram of the various behaviours that you can identify and note the cause of the transitio
