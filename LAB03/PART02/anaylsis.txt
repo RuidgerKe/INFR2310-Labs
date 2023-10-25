@@ -19,6 +19,20 @@ Once the boss gets hit by a mine reflected by the player, they will pause to pla
 Once the player jumps on their head, or the time to hit has elapsed, they will reset back to their agro state. 
 
 Identify all of the different/unique behaviours/states the characters exhibit
+Player:
+- Jump 
+- Throw Hat
+- Ground Pound
+- Halt
+- Run
+
+Boss:
+- Walk 
+- Throw Mine 
+- Reload
+- Hurt
+- Reload Hat
+
 ● What triggers the states to change?
 ● How does the state influence their movement?
 ● Create a diagram of the various behaviours that you can identify and note the cause of the transitio
