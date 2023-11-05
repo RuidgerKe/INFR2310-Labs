@@ -1,0 +1,63 @@
+Reloading 
+Type: Upperbody 
+Transitions between action clips
+  reloading - shooting 
+  reloading - bolster gun 
+Variations of the same action clip
+  standing reload
+  walking reload
+  crouching reload
+Indications of Additive blending/overrides
+Indications of Avatar Masks
+Indications of Mirroring
+
+Rolling 
+Type: Fullbody
+Transitions between action clips
+  walking - Rolling 
+Variations of the same action clip
+  rolling
+Indications of Additive blending/overrides
+Indications of Avatar Masks
+Indications of Mirroring
+
+shooting 
+Type: Upperbody
+Transistions between action clips
+  reloading - shooting
+  crouching - shooting 
+  rolling - shooting 
+  wall peeking - shooting
+Variations of the same action clip
+  running shooting 
+  crouch shooting 
+  cover shooting 
+  ADS shooting
+Indications of Additive blending/overrides
+Indications of Avatar Masks
+Indications of Mirroring
+
+gernade toss
+Type: Upperbody
+Transitions betwen action clips
+  reload - gernade toss
+Variations of the same aciton clip
+  gernade toss
+Indications of Additive blending/overrides
+Indications of Avatar Masks
+Indications of Mirroring
+
+jogging 
+Type: Lowerbody
+Transitions betwen action clips
+  crouching - jogging
+  rolling - jogging 
+  ADS shooting - jogging
+  jogging - directional change
+variations of the same action clip
+  jogging reloading 
+  jogging 
+  jogging shooting 
+Indications of Additive blending/overrides
+Indications of Avatar Masks
+Indications of Mirroring
