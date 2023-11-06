@@ -55,7 +55,7 @@ Variations of the same aciton clip
 Indications of Additive blending/overrides
   Upperbody is being used while the lower body remains the same. It is added onto another animation and can be done with the ccrouch or standing pose
 Indications of Avatar Masks
-  
+  mostly upper boday as the legs stay within the crouch animation while Drake arcs a gernade over the wall
 Indications of Mirroring
   In the clip shown the gernade is only thrown once, so cannot say with lack of evidence
 
@@ -71,5 +71,6 @@ variations of the same action clip
   jogging 
   jogging shooting 
 Indications of Additive blending/overrides
+  
 Indications of Avatar Masks
 Indications of Mirroring
