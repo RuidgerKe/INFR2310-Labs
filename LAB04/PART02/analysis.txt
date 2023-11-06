@@ -71,6 +71,8 @@ variations of the same action clip
   jogging 
   jogging shooting 
 Indications of Additive blending/overrides
-  
+  while the character is moving if they are doing different actions with their upper body, the lower legs will still run i the same way. 
 Indications of Avatar Masks
+  The legs are the same no matter what uppbody action is happening
 Indications of Mirroring
+  The running in different direction show evidence that the jog can be mirrored to face different dirrection
