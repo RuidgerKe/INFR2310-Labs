@@ -21,8 +21,11 @@ Transitions between action clips
 Variations of the same action clip
   rolling
 Indications of Additive blending/overrides
+  Overrides everything, as it is a full-body animation. 
 Indications of Avatar Masks
+  None, it is a single animation played
 Indications of Mirroring
+  The same animation is played no matter the direction is inputted. 
 
 shooting 
 Type: Upperbody
@@ -37,8 +40,11 @@ Variations of the same action clip
   cover shooting 
   ADS shooting
 Indications of Additive blending/overrides
+  Only the upperbody changes to shoot, no matter what state Nate is in be it standing or crouching.
 Indications of Avatar Masks
+  The arms stay the same no matter what variation is played.
 Indications of Mirroring
+  Only when shooting over obstacles be it crouching or standing.
 
 gernade toss
 Type: Upperbody
@@ -47,8 +53,11 @@ Transitions betwen action clips
 Variations of the same aciton clip
   gernade toss
 Indications of Additive blending/overrides
+  Upperbody is being used while the lower body remains the same. It is added onto another animation and can be done with the ccrouch or standing pose
 Indications of Avatar Masks
+  
 Indications of Mirroring
+  In the clip shown the gernade is only thrown once, so cannot say with lack of evidence
 
 jogging 
 Type: Lowerbody
