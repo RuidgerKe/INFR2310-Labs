@@ -8,8 +8,11 @@ Variations of the same action clip
   walking reload
   crouching reload
 Indications of Additive blending/overrides
+  Only the arms play the reload animation, the legs can do whatever action drake is currently performing.
 Indications of Avatar Masks
+  The arms are playing the same animation within mulitple different action clip variation. 
 Indications of Mirroring
+  There is none.
 
 Rolling 
 Type: Fullbody
