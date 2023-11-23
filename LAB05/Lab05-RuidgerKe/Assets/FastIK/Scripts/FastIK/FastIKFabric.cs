@@ -23,6 +23,9 @@ namespace DitzelGames.FastIK
         public Transform Pole;
         public float AffectiveDistance;
 
+
+        public Transform TestAttraction;
+
         /// <summary>
         /// Solver iterations per update
         /// </summary>
@@ -54,6 +57,7 @@ namespace DitzelGames.FastIK
         // Start is called before the first frame update
         void Awake()
         {
+            Target = AcTarget;
             Init();
         }
 
@@ -113,13 +117,21 @@ namespace DitzelGames.FastIK
         }
         private void Update()
         {
-            float distanceToTarget = Vector3.Distance(transform.position, AcTarget.position);
+            //TestAttraction
+            //transform
+            if (TestAttraction == null) return;
 
-            float effectFactor = 1.0f - (distanceToTarget / AffectiveDistance);
+            float distanceToTarget = Vector3.Distance(TestAttraction.position, AcTarget.position) - 0.3f;
 
+            float effectFactor = (distanceToTarget / AffectiveDistance);
+
+            effectFactor = 1 - Mathf.Clamp(effectFactor, 0, 1);
             Debug.Log(effectFactor);
 
-            Target.position = Vector3.Lerp(transform.position, AcTarget.position, effectFactor);
+
+            Target.position = Vector3.Lerp(TestAttraction.position, AcTarget.position, effectFactor);
+            //Target.rotation = Quaternion.Lerp(Quaternion.Euler(0, 0, 90), AcTarget.rotation, effectFactor);
+            //Pole.position = Vector3.Lerp(AcTarget.position + Vector3.down * 2, AcTarget.position + Vector3.forward * 2f, effectFactor);
         }
 
         // Update is called once per frame
